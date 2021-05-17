@@ -1,0 +1,44 @@
+#nav {
+  opacity: 0.9;
+  border-bottom: 2px solid dodgerblue;
+}
+#header {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/8.jpg') no-repeat center top fixed;
+  background-size: cover;
+  min-height: 600px;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.icon-check {
+  color: dodgerblue;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 5px;
+  width: 65px;
+  text-align: center;
+  margin-top: 6px;
+}
+#explore i,
+#share i {
+  color: white;
+}
+
+#header form {
+  opacity: 0.8;
+}
+
+#footer {
+  border-top: 2px solid dodgerblue;
+}
+
+.modal-header i {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.text-left {
+  text-align: left;
+}
